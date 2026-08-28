@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doğum Günün Kutlu Olsun Negin 🎂</title>
+<meta name="description" content="26 yaşına özel, küçük bir kutlama köşesi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Arka plan katmanları -->
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+<canvas id="confetti"></canvas>
+
+<!-- ============ AÇILIŞ PERDESİ ============ -->
+<section id="perde">
+  <div class="perde-icerik">
+    <div class="hediye" id="hediye">
+      <div class="hediye-kapak"></div>
+      <div class="hediye-kutu"></div>
+      <div class="hediye-kurdele"></div>
+    </div>
+    <h1 class="perde-baslik">Dün çok özel biri doğdu</h1>
+    <p class="perde-alt">Kutuya dokun</p>
+  </div>
+</section>
+
+<!-- ============ ANA İÇERİK ============ -->
+<main id="site" aria-hidden="true">
+
+  <!-- HERO -->
+  <header class="hero">
+    <p class="hero-ust">27 Ağustos</p>
+    <h1 class="hero-baslik">
+      <span class="satir">İyi ki</span>
+      <span class="satir vurgu">Doğdun</span>
+      <span class="satir isim">Negin</span>
+    </h1>
+    <div class="yas-rozet">
+      <span class="yas-sayi">26</span>
+      <span class="yas-yazi">yaşındasın</span>
+    </div>
+    <p class="hero-metin">
+      Bu yılı hak ettin. Gerçekten hak ettin.
+    </p>
+    <div class="kaydir">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- GERİ SAYIM / GEÇEN SÜRE -->
+  <section class="bolum sayac-bolum">
+    <div class="kart sayac-kart">
+      <h2 class="bolum-baslik">Şu an, tam olarak</h2>
+      <div class="sayaclar">
+        <div class="sayac"><strong id="s-gun">0</strong><span>gün yaşadın</span></div>
+        <div class="sayac"><strong id="s-saat">0</strong><span>saat güldün</span></div>
+        <div class="sayac"><strong id="s-dakika">0</strong><span>dakika</span></div>
+        <div class="sayac"><strong id="s-saniye">0</strong><span>saniye</span></div>
+      </div>
+      <p class="sayac-not">…ve her biri iyi ki oldu.</p>
+    </div>
+  </section>
+
+  <!-- MEKTUP -->
+  <section class="bolum">
+    <div class="kart mektup">
+      <div class="muhur">N</div>
+      <h2 class="bolum-baslik">Küçük bir itiraf</h2>
+      <p>
+        Sen benim doğum günümü hiç kaçırmadın. Bir kere bile. Ben dün kaçırdım
+        ve fark ettiğim an içim cız etti. Bu yüzden buradayım — geç kaldığım için
+        özür dilemenin en uzun yolu bu sayfa.
+      </p>
+      <p>
+        Çünkü bir mesaj atıp geçmek istemedim. Sana ait, senin için kurulmuş,
+        başka kimsenin olmayan bir yer olsun istedim.
+      </p>
+      <p class="mektup-vurgu">
+        25 kolay bir yaş değildi. Uzaktaydın, zor günlerden geçtin, korkulan
+        haberlerin içinden geçtin. Ve buna rağmen ayakta kaldın, gülmeyi bırakmadın.
+      </p>
+      <p>
+        O yüzden bu 26 sıradan bir sayı değil. Bu, atlattığın her şeyin
+        sonunda gelen yaş. Bundan sonrası daha sakin, daha güzel, daha çok
+        senin olsun.
+      </p>
+      <p class="imza">— Doğum gününü kaçıran ama seni unutmayan biri</p>
+    </div>
+  </section>
+
+  <!-- GALERİ -->
+  <section class="bolum">
+    <h2 class="bolum-baslik ortala">Biriktirdiklerimiz</h2>
+    <p class="bolum-alt">Üç kare, üç ayrı gün, aynı gülüş.</p>
+    <div class="galeri">
+      <figure class="foto">
+        <img src="images/foto-2.jpg" alt="Doğum günü şapkasıyla gülümserken" loading="lazy">
+      </figure>
+      <figure class="foto">
+        <img src="images/foto-1.jpg" alt="Mezuniyet töreninde cübbe ve çiçeklerle" loading="lazy">
+      </figure>
+      <figure class="foto">
+        <img src="images/foto-3.jpg" alt="Yeni yıl süslerinin önünde birlikte selfie" loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+  <!-- DİLEKLER -->
+  <section class="bolum">
+    <h2 class="bolum-baslik ortala">26 için dileklerim</h2>
+    <p class="bolum-alt">Kartlara dokun, arkalarını çevir.</p>
+    <div class="dilekler">
+      <div class="dilek" tabindex="0">
+        <div class="dilek-ic">
+          <div class="dilek-on"><span class="emoji">🕊️</span><h3>Huzur</h3></div>
+          <div class="dilek-arka"><p>Bu yıl hiçbir haberden korkmadan uyuyabilesin.</p></div>
+        </div>
+      </div>
+      <div class="dilek" tabindex="0">
+        <div class="dilek-ic">
+          <div class="dilek-on"><span class="emoji">🏡</span><h3>Yakınlık</h3></div>
+          <div class="dilek-arka"><p>Sevdiklerinle aranda mesafe değil, sadece kapı olsun.</p></div>
+        </div>
+      </div>
+      <div class="dilek" tabindex="0">
+        <div class="dilek-ic">
+          <div class="dilek-on"><span class="emoji">🌱</span><h3>Başlangıç</h3></div>
+          <div class="dilek-arka"><p>Ertelediğin ne varsa bu yıl başlasın.</p></div>
+        </div>
+      </div>
+      <div class="dilek" tabindex="0">
+        <div class="dilek-ic">
+          <div class="dilek-on"><span class="emoji">😂</span><h3>Kahkaha</h3></div>
+          <div class="dilek-arka"><p>Sebepsiz yere, nefesin kesilene kadar gülesin.</p></div>
+        </div>
+      </div>
+      <div class="dilek" tabindex="0">
+        <div class="dilek-ic">
+          <div class="dilek-on"><span class="emoji">✈️</span><h3>Yol</h3></div>
+          <div class="dilek-arka"><p>Gitmek istediğin her yere, istediğin zaman gidebilesin.</p></div>
+        </div>
+      </div>
+      <div class="dilek" tabindex="0">
+        <div class="dilek-ic">
+          <div class="dilek-on"><span class="emoji">💪</span><h3>Kolaylık</h3></div>
+          <div class="dilek-arka"><p>Bu sefer güçlü olmak zorunda kalmayasın.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PASTA -->
+  <section class="bolum pasta-bolum">
+    <h2 class="bolum-baslik ortala">Mumları üflemeyi unutma</h2>
+    <p class="bolum-alt">Dilek tut, sonra pastaya dokun.</p>
+
+    <div class="pasta" id="pasta">
+      <div class="mumlar">
+        <div class="mum"><div class="alev"></div></div>
+        <div class="mum"><div class="alev"></div></div>
+        <div class="mum"><div class="alev"></div></div>
+      </div>
+      <div class="kat kat-1"></div>
+      <div class="kat kat-2"></div>
+      <div class="tabak"></div>
+    </div>
+
+    <p class="pasta-mesaj" id="pasta-mesaj">Dileğin kabul olsun. 🤍</p>
+  </section>
+
+  <!-- KAPANIŞ -->
+  <footer class="son">
+    <p class="son-buyuk">İyi ki varsın Negin.</p>
+    <p class="son-kucuk">
+      Doğum gününü kaçırdım ama seni asla.<br>
+      Nice sakin, güvenli ve gülerek geçen yaşlara.
+    </p>
+    <div class="kalpler">🤍</div>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
